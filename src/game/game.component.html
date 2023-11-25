@@ -1,0 +1,11 @@
+<p>
+game works!
+</p>
+<button (click)="test(100, 200)">CLICK1</button>
+<button (click)="test(50, 500)">CLICK2</button>
+<game-board/>
+<game-animations [state]='entities$'/>
+<game-background/>
+<!-- <div *ngIf="(board$ | async) as board">
+  <pre>{{board | json}}</pre>
+</div> -->

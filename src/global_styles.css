@@ -1,0 +1,6 @@
+/* Add application styles & imports to this file! */
+canvas {
+  position: absolute;
+  top: 400px;
+  /* background-color: red; */
+}
